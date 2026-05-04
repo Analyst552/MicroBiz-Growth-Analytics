@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- DATA SCIENCE SPECIFIC ---
+# Ignore raw datasets (too large for GitHub)
+data/raw/
+data/*.zip
+data/*.rar
+data/*.7z
+
+# Ignore large CSVs but keep the folder structure
+data/*.csv
+!data/processed_sample.csv
